@@ -1,0 +1,162 @@
+html{
+    font-size: 10px;
+    scroll-behavior: smooth;
+    /*火狐浏览器样式*/
+    /*scrollbar-width: none;*/
+    /*文字不可选中*/
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: '幼圆';
+}
+/*窗口*/
+#window{
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    overflow: hidden;
+}
+/*menu*/
+#menu{
+    width: 100%;
+    position: fixed;
+}
+#menu_box{
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    transform: translateY(-100%);
+    transition: 0.4s ease-in-out;
+}
+#menu:hover #menu_box{
+    transform: translateY(0);
+}
+#menu_title{
+    width: 20%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+#menu_title p{
+    top: 25%;
+    position: absolute;
+    transform: translateY(-50%);
+}
+#menu_bar{
+    width: auto;
+    height: 100%;
+    right: 6rem;
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+}
+.bar{
+    float: left;
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
+    margin-right: 2rem;
+    border-radius: 1rem;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+.bar p{
+    text-align: center;
+    position: relative;
+    line-height: 1rem;
+
+}
+.bar img{
+    width: 5rem;
+    height: 5rem;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+}
+/*index*/
+#index{
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    overflow: hidden;
+    transition: 0.8s ease-in-out;
+}
+#leaf{
+    width: 60%;
+    height: 60%;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+    transition: 0.8s ease-in-out;
+}
+#leaf_background{
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    border-radius: 6rem;
+    transition: 0.8s ease-in-out;
+}
+#leaf h2{
+    width: 100%;
+    font-size: 8rem;
+    left: 50%;
+    top: 40%;
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+    transition: 0.8s ease-in-out;
+    text-align: center;
+}
+#t1, #t2, #t3, #t4{
+    transition: 0.8s ease-in-out;
+}
+/*旋转页面*/
+#scroll{
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    transition: 0.8s ease-in-out;
+}
+.d{
+    width: 100%;
+    height: 100%;
+    transform: rotateZ(90deg);
+    position: absolute;
+    overflow: hidden;
+    transition: 0.8s ease-in-out;
+}
+/*d1*/
+#d1_t1, #d1_t2, #dish, #dish_in, #d1_text1, #skills, #skill_box, #d1_circle, #d1_text2, #d1_text2_line, #d1_text2_ps, #d1_text2_ps_box{
+    transition: 0.8s ease-in-out;
+}
+/*d2*/
+#d2_t1, #d2_t2, #d2_t3, #d2_image_box{
+    transition: 0.8s ease-in-out;
+}
+#d2_text a{
+    transition: 0.2s ease-in-out;
+}
+#d2_image_box img{
+    pointer-events: none;
+}
+/*d3*/
+#d3_c1, #d3_c2, #d3_c3, #d3_c4, #d3_c5, #d3_title{
+    transition: 0.8s ease-in-out;
+}

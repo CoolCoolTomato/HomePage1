@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>酷酷番茄</title>
+    <meta charset="UTF-8">
+    <meta name="robots" content="all"/>
+    <link id="base" rel="stylesheet" href="static/css/base.css">
+    <link id="theme" rel="stylesheet">
+    <link id="equipment" rel="stylesheet">
+    <link id="animation" rel="stylesheet">
+    <link rel="shortcut icon" href="static/img/cat.jpg" type="image/x-icon"/>
+    <script src="static/js/scroll.js"></script>
+    <script src="static/js/index.js"></script>
+</head>
+<body>
+    <div id="window">
+        <div id="scroll">
+            <div id="d1" class="d">
+                <div id="dish" onclick="dish()">
+                    <div class="line"><p>网络安全工程师</p></div>
+                    <div class="line"><p>Python全栈开发者</p></div>
+                    <div class="line"><p>web UI设计师</p></div>
+                    <div class="line"><p>PHP全栈开发者</p></div>
+                    <div id="dish_in"></div>
+                </div>
+                <div id="lamp" onclick="dish()"></div>
+                <div id="d1_t1"></div>
+                <div id="d1_t2"></div>
+                <div id="d1_text1">
+                    <h2>&lt技术&gt</h2>
+                    <div id="skills">
+                        <div id="skill_box">
+                            <div class="skill">
+                                <p>Selenium</p>
+                            </div>
+                            <div class="skill">
+                                <p>Gin</p>
+                            </div>
+                            <div class="skill">
+                                <p>ThinkPHP6</p>
+                            </div>
+                            <div class="skill">
+                                <p>Django</p>
+                            </div>
+                            <div class="skill">
+                                <p>PyQT5</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="d1_circle"></div>
+                <div id="d1_text2">
+                    <h2>酷酷番茄</h2>
+                    <div id="d1_text2_line"></div>
+                    <h3>coolcooltomato.com</h3>
+                    <div id="d1_text2_ps">
+                        <h4>关于我</h4>
+                        <div id="d1_text2_ps_box">
+                            <p>从事网络安全相关工作.</p>
+                            <p>偶尔做一些后端开发.</p>
+                            <p>喜欢好看的东西.</p>
+                            <p>什么都会一点，但没什么用:-)</p>
+                            <p>楚子航什么时候能再见到夏弥呢？</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="d2" class="d">
+                <div id="d2_t1"></div>
+                <div id="d2_t2"></div>
+                <div id="d2_t3"></div>
+                <div id="d2_image_box">
+                    <img id="work">
+                </div>
+                <div id="d2_text_box">
+                    <div id="d2_text">
+                        <h2>Blog@CoolCoolTomato</h2>
+                        <p>-</p>
+                        <p>专注于技术的分享</p>
+                        <p>还有学习的方法和心得</p>
+                        <p>或许你还能找到一首喜欢的诗</p>
+                        <a href="https://coolcooltomato.com" target="_blank">点击进入</a>
+                    </div>
+                </div>
+            </div>
+            <div id="d3" class="d">
+                <div id="d3_background">
+                    <div id="d3_c1"></div>
+                    <div id="d3_c2"></div>
+                    <div id="d3_c3"></div>
+                    <div id="d3_c4"></div>
+                    <div id="d3_c5"></div>
+                </div>
+                <div id="d3_title">
+                    <h2>《作品集》</h2>
+                </div>
+                <div id="show_box_warp">
+                    <div id="d3_border"></div>
+                    <div id="show_box">
+                        <div id="show">
+                            <div class="show">
+                                <h2>PST</h2>
+                                <div></div>
+                                <p>Python skill tree，一个专注于python学习的网站，包含了大量python技术：算法设计，网络爬虫，Django，并自带常用的编码/解码工具。</p>
+                                <a href="/">-&gt点击进入</a>
+                            </div>
+                            <div class="show">
+                                <h2>CTF工具箱</h2>
+                                <div></div>
+                                <p>面向CTF选手，包含了大部分加密/解密工具，如希尔密码，云影加密，哈希算法等。使用PyQT5开发，开箱即用。</p>
+                                <a href="/">-&gt点击进入</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="d4" class="d"></div>
+        </div>
+        <div id="index">
+            <div id="leaf">
+                <div id="leaf_background"></div>
+                <h2>[ 酷酷番茄 ]</h2>
+            </div>
+            <div id="t1"></div>
+            <div id="t2"></div>
+            <div id="t3"></div>
+            <div id="t4"></div>
+        </div>
+        <div id="menu">
+            <div id="menu_box">
+                <div id="menu_title">
+                    <p>CoolCoolTomato</p>
+                </div>
+                <div id="menu_bar">
+                    <div class="bar">
+                        <p onclick="animation_index()">首页</p>
+                    </div>
+                    <div class="bar">
+                        <p onclick="anchor(this)">简介</p>
+                    </div>
+                    <div class="bar">
+                        <p onclick="anchor(this)">文章</p>
+                    </div>
+                    <div class="bar">
+                        <p onclick="anchor(this)">作品</p>
+                    </div>
+                    <div class="bar">
+                        <img class="change" onclick="theme()">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

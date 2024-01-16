@@ -1,0 +1,25 @@
+/*d1*/
+#index{
+    visibility: hidden;
+    opacity: 0;
+}
+#leaf{
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+#leaf h2{
+    font-size: 15rem;
+}
+#t1{
+    transform: translateX(100%) translateY(-100%) translateZ(0);
+}
+#t2{
+    transform: translateX(-100%) translateY(-100%) translateZ(0);
+}
+#t3{
+    transform: translateX(-100%) translateY(100%) translateZ(0);
+}
+#t4{
+    transform: translateX(100%) translateY(100%) translateZ(0);
+}

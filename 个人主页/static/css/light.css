@@ -1,0 +1,221 @@
+html{
+    background-color: white;
+    color: #404040;
+}
+#menu_box{
+    background-color: white;
+    box-shadow: 0 0 1rem #404040;
+}
+.bar:hover{
+    background-color: #F0F0E8;
+}
+/*index*/
+#index{
+    background: linear-gradient(to left top, rgb(200, 200, 255), rgb(255, 255, 200));
+}
+#leaf_background{
+    background: linear-gradient(to left top, rgb(255, 255, 0, 0.3), rgb(150, 100, 255, 0.3), rgb(255, 200, 100, 0.3));
+}
+#leaf h2{
+    color: white;
+}
+#t1, #t2, #t3, #t4{
+    backdrop-filter: blur(1rem);
+    box-shadow: 0 0 1rem #404040;
+}
+#t1{
+    background-color: rgb(255, 255, 100, 0.5);
+}
+#t2{
+    background-color: rgb(255, 100, 255, 0.5);
+}
+#t3{
+    background-color: rgb(255, 180, 180, 0.5);
+}
+#t4{
+    background-color: rgb(0, 255, 255, 0.5);
+}
+/*scroll*/
+.d{
+    background-color: white;
+    box-shadow: 0 0 1rem #404040;
+}
+/*d1*/
+#d1{
+    background-color: white;
+}
+#dish{
+    background-color: white;
+    box-shadow: 0 0 1rem #404040;
+}
+#dish_in{
+    background-color: white;
+    box-shadow: inset 0 0 1rem #404040;
+}
+.line p{
+    color: #404040;
+}
+#lamp{
+    background-color: rgb(255, 255, 0, 0.5);
+}
+
+#d1_t1{
+    background: rgb(255, 200, 230, 0.5);
+    box-shadow: 0 0 1rem #404040;
+}
+#d1_t2{
+    background-color: white;
+    box-shadow: 0 0 1rem #404040;
+}
+#d1_text1, #d1_text2{
+    box-shadow: 0 0 1rem #404040;
+}
+#d1_text1{
+    background: linear-gradient(to left top, rgb(230, 230, 255, 0.5), rgb(255, 255, 230, 0.5));
+}
+#d1_text1 h2{
+    color: #606060;
+}
+/*滚动条样式*/
+#skills::-webkit-scrollbar{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 0.5rem;
+}
+#skills::-webkit-scrollbar-track{
+    background-color: white;
+    border-radius: 0.5rem;
+}
+#skills::-webkit-scrollbar-thumb{
+    background-color: lightblue;
+    border-radius: 0.5rem;
+    transition: 0.4s ease-in-out;
+}
+#skills::-webkit-scrollbar-thumb:hover{
+    background-color: lightskyblue;
+}
+.skill{
+    color: #606060;
+}
+#d1_circle{
+    background-color: lightskyblue;
+}
+#d1_text2 h2{
+    color: white;
+}
+#d1_text2_line{
+    background-color: lightblue;
+}
+#d1_text2 h3{
+    color: white;
+}
+#d1_text2_ps{
+    box-shadow: inset 0 0 1rem #808080;
+}
+#d1_text2_ps h4{
+    color: #808080;
+}
+/*滚动条样式*/
+#d1_text2_ps_box::-webkit-scrollbar{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 0.5rem;
+}
+#d1_text2_ps_box::-webkit-scrollbar-track{
+    background: none;
+    border-radius: 0.5rem;
+}
+#d1_text2_ps_box::-webkit-scrollbar-thumb{
+    background-color: rgb(255, 120, 180);
+    border-radius: 0.5rem;
+    transition: 0.4s ease-in-out;
+}
+#d1_text2_ps_box::-webkit-scrollbar-thumb:hover{
+    background-color: palevioletred;
+}
+#d1_text2_ps_box p{
+    color: #999999;
+}
+/*d2*/
+#d2_t1, #d2_t2, #d2_t3, #d2_image_box, #d2_text_box{
+    box-shadow: 0 0 1rem #404040;
+}
+#d2_t1{
+    background: linear-gradient(to left top, rgb(255, 255, 220), rgb(220, 220, 255));
+}
+#d2_t2{
+    background: linear-gradient(to left top, rgb(255, 220, 255, 0.5), rgb(255, 255, 220, 0.5));
+}
+#d2_text_box{
+    background: white;
+}
+#d2_text a{
+    color: #404040;
+}
+#d2_text a:hover{
+    color: violet;
+}
+/*d3*/
+#d3_c1, #d3_c2, #d3_c3, #d3_c4, #d3_c5{
+    box-shadow: 0 0 1rem #404040;
+}
+#d3_c1{
+    background: linear-gradient(to left top, rgb(255, 255, 230), rgb(230, 230, 255))
+}
+#d3_c2{
+    background: linear-gradient(to left top, rgb(230, 230, 255), rgb(255, 255, 230))
+}
+#d3_c3{
+    background: linear-gradient(to left bottom, rgb(255, 230, 230), rgb(230, 230, 255))
+}
+#d3_title{
+    background: #FF9999;
+    box-shadow: 0 0 1rem #404040;
+}
+#d3_title h2{
+    color: white;
+}
+#show_box::-webkit-scrollbar{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 0.5rem;
+}
+#show_box::-webkit-scrollbar-track{
+    background: none;
+    border-radius: 0.5rem;
+}
+#show_box::-webkit-scrollbar-thumb{
+    background-color: #999999;
+    border-radius: 0.5rem;
+    transition: 0.4s ease-in-out;
+}
+#show_box::-webkit-scrollbar-thumb:hover{
+    background-color: #FF9999;
+}
+#d3_border{
+    border-left: 1rem solid #FF9999;
+    border-right: 1rem solid #FF9999;
+}
+.show{
+    box-shadow: 0 0 1rem #404040;
+}
+.show div{
+    background-color: #FF9999;
+}
+.show p{
+    color: #404040;
+}
+.show a{
+    color: #404040;
+    transition: 0.2s ease-in-out;
+}
+.show a:hover{
+    color: violet;
+}
+/*safe*/
+#safe span{
+    color: #EEEEEE;
+}
+#safe a{
+    color: #EEEEEE;
+}
