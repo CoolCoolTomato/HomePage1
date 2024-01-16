@@ -3,13 +3,13 @@
 ## 前端个人主页
 
 ### 白天模式
-![屏幕截图 2024-01-17 020014](https://github.com/CoolCoolTomato/HomePage1/assets/107784402/c29fc614-31c4-4bf5-ab03-a651e7c0d8c4)
-![屏幕截图 2024-01-17 020040](https://github.com/CoolCoolTomato/HomePage1/assets/107784402/16b0689b-126b-40c3-8560-7c3cf4c7d0d2)
-![屏幕截图 2024-01-17 020054](https://github.com/CoolCoolTomato/HomePage1/assets/107784402/850dd6ae-0a4c-4e5f-a76a-647d99ddeb7c)
-![屏幕截图 2024-01-17 020107](https://github.com/CoolCoolTomato/HomePage1/assets/107784402/ab913dbf-fbfb-4a3f-9af5-780fcf33e762)
+![light1](https://github.com/CoolCoolTomato/HomePage1/assets/107784402/23a144ff-5a05-495c-b712-5adcd215aa5d)
+![light2](https://github.com/CoolCoolTomato/HomePage1/assets/107784402/df3d6b64-a7a5-46d9-aadf-6c81588352c6)
+![light3](https://github.com/CoolCoolTomato/HomePage1/assets/107784402/0e2afce4-5bcb-4e5e-82a3-c806164706e1)
+![light4](https://github.com/CoolCoolTomato/HomePage1/assets/107784402/c1a6bffd-e0eb-476e-a28b-7376fbc60da1)
 
 ### 黑夜模式
-![屏幕截图 2024-01-17 020126](https://github.com/CoolCoolTomato/HomePage1/assets/107784402/9012e938-c478-4450-8ba8-7c750065977b)
-![屏幕截图 2024-01-17 020136](https://github.com/CoolCoolTomato/HomePage1/assets/107784402/d1458fcd-5bf1-41bb-b83c-378498fb8c04)
-![屏幕截图 2024-01-17 020146](https://github.com/CoolCoolTomato/HomePage1/assets/107784402/46effa27-2c11-4a98-a829-af52f59da383)
-![屏幕截图 2024-01-17 020154](https://github.com/CoolCoolTomato/HomePage1/assets/107784402/aea25c21-caf1-40de-992c-f7ea99cb9655)
+![dark1](https://github.com/CoolCoolTomato/HomePage1/assets/107784402/3b7ca932-f96c-46af-b156-10b6e04c70b0)
+![dark2](https://github.com/CoolCoolTomato/HomePage1/assets/107784402/af5690a1-2178-4a86-8888-2ecb8ba0d9ed)
+![dark3](https://github.com/CoolCoolTomato/HomePage1/assets/107784402/73c69b07-686a-4bb4-ae1e-0912fa14c5a0)
+![dark4](https://github.com/CoolCoolTomato/HomePage1/assets/107784402/eb67ab64-6ad1-4edc-8539-3e4c00fb53ac)
